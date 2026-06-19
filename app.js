@@ -2360,7 +2360,7 @@ function renderOrdersTable(orders) {
     }
 
     row.innerHTML = `
-      <td style="color:#1e3c72; cursor:pointer; text-decoration:underline;" class="order-id-click" data-order-id="${id}">${id}</td>
+      <td class="order-id-cell order-id-click" data-order-id="${id}">${id}</td>
       <td>${order.customerCode}</td>
       <td>${order.customerName}</td>
       <td>${order.total?.toFixed(2)}</td>
