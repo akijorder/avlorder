@@ -186,12 +186,12 @@ body { min-height: 100vh; background: linear-gradient(135deg, #0f2027 0%, #203a4
     text-decoration: none !important;
 }
 
-@media (min-width: 1400px) {
+@media (min-width: 1600px) {
     body {
         padding: 20px 10px;
     }
     .main-app-container {
-        max-width: 1400px;    /* 1200px-এর বেশি হবে না */
+        max-width: 1600px;    /* 1200px-এর বেশি হবে না */
         margin: 0 auto;       
     }
 }
